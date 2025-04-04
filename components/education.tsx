@@ -18,13 +18,13 @@ export default function Education() {
       id: 1,
       degree: "Bachelors In Software Engineering",
       institution: "Fast National University of Computer & Emerging Sciences",
-      duration: "2020 - 2024",
+      duration: "2021 - 2025",
       description: "Focused on software development, mobile applications, and computer science fundamentals.",
     },
     {
       id: 2,
       degree: "A-Levels (Pre-Engineering)",
-      institution: "Beaconhouse",
+      institution: "Beaconhouse College Programme",
       duration: "2018 - 2020",
     },
     {

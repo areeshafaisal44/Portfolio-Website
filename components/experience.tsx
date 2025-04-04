@@ -20,7 +20,7 @@ export default function Experience() {
       company: "FAST NUCES",
       duration: "Fall 2023",
       description:
-        "Assisted professors in teaching Probability and Statistics courses, graded assignments, and conducted tutorial sessions for students.",
+        "Assisted professors in teaching Probability and Statistics courses, graded assignments, and conducted tutorial sessions for students on there projects.",
     },
     {
       id: 2,

@@ -31,9 +31,8 @@ export default function Skills() {
       skills: [
         { name: "Java (Android)", level: 95 },
         { name: "Kotlin", level: 90 },
-        { name: "Jetpack Compose", level: 85 },
-        { name: "MVVM Architecture", level: 90 },
-        { name: "Android SDK", level: 95 },
+        { name: "MVVM Architecture", level: 70 },
+        { name: "Android SDK", level: 90 },
         { name: "UI/UX Design", level: 85 },
       ],
     },
@@ -65,7 +64,7 @@ export default function Skills() {
       icon: <Laptop className="h-4 w-4" />,
       skills: [
         { name: "Java", level: 95 },
-        { name: "Kotlin", level: 90 },
+        { name: "Kotlin", level: 50 },
         { name: "Python", level: 80 },
         { name: "C#", level: 75 },
         { name: "C++", level: 85 },
@@ -88,7 +87,7 @@ export default function Skills() {
       name: "Other Skills",
       icon: <Workflow className="h-4 w-4" />,
       skills: [
-        { name: "Git", level: 90 },
+        { name: "Git", level: 70 },
         { name: "Agile/Scrum", level: 85 },
         { name: "Jira", level: 80 },
         { name: "SonarQube", level: 75 },

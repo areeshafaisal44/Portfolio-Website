@@ -77,7 +77,7 @@ export default function Contact() {
       icon: <Github className="h-5 w-5" />,
       title: "GitHub",
       value: "areeshafaisal",
-      link: "https://github.com/areeshafaisal",
+      link: "https://github.com/areeshafaisal44",
     },
   ]
 

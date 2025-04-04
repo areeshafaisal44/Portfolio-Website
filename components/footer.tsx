@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center space-x-4">
             <Link
-              href="https://github.com/areeshafaisal"
+              href="https://github.com/areeshafaisal44"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -38,9 +38,6 @@ export default function Footer() {
               <span className="sr-only">Email</span>
             </Link>
           </div>
-        </div>
-        <div className="mt-4 text-center">
-          <p className="text-xs text-muted-foreground">Built with Next.js, Tailwind CSS, and Framer Motion</p>
         </div>
       </div>
     </footer>

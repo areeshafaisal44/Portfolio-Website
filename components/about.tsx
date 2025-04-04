@@ -78,10 +78,10 @@ export default function About() {
           <Card className="overflow-hidden border border-primary/20 bg-card">
             <CardContent className="p-0">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="Areesha2.jpg"
                 alt="Areesha Faisal"
-                width={600}
-                height={600}
+                width={400}
+                height={400}
                 className="w-full h-auto object-cover"
               />
             </CardContent>
@@ -97,7 +97,7 @@ export default function About() {
           <h3 className="text-2xl font-bold mb-4 text-primary">Android Developer</h3>
           <p className="text-muted-foreground mb-6">
             Passionate and detail-oriented Android Developer with experience in designing, developing, and deploying
-            mobile applications. Skilled in Java, Kotlin, and Jetpack Compose, with a strong understanding of MVVM
+            mobile applications. Skilled in Java, Kotlin, with a strong understanding of MVVM
             architecture, REST APIs, and Firebase integration. Adept at writing clean, maintainable code and
             collaborating with cross-functional teams to create seamless user experiences.
           </p>

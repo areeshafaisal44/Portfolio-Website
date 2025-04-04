@@ -29,8 +29,8 @@ export default function Projects() {
       title: "Event Ease",
       description: "A conference management system designed to handle virtual conferences and paper submissions.",
       image: "/placeholder.svg?height=400&width=600",
-      tags: ["Java", "Firebase", "React"],
-      github: "https://github.com/username/event-ease",
+      tags: ["JavaScript","MySQL", "React"],
+      github: "https://github.com/areeshafaisal44/FYP",
       details:
         "Features include paper submission management, virtual event scheduling, and attendee engagement tools. The system allows conference organizers to manage submissions, schedule virtual events, and engage with attendees through various interactive tools.",
     },
@@ -40,18 +40,18 @@ export default function Projects() {
       description:
         "A dictionary application for storing and retrieving Arabic poems, providing quick access to verses and translations.",
       image: "/placeholder.svg?height=400&width=600",
-      tags: ["Java", "SQLite", "Android"],
-      github: "https://github.com/username/arabic-poem-dictionary",
+      tags: ["Java", "SQLite"],
+      github: "https://github.com/areeshafaisal44/Arabic_Poems_Dictionary",
       details:
         "This application allows users to store and retrieve Arabic poems, providing quick access to verses and translations. It features a comprehensive search functionality, categorization by poet or theme, and the ability to save favorites.",
     },
     {
       id: 3,
-      title: "Invo Manage System",
+      title: "Inventory Management System",
       description: "A comprehensive inventory management system built with C#.",
       image: "/placeholder.svg?height=400&width=600",
-      tags: ["C#", "SQL", "WPF"],
-      github: "https://github.com/username/invo-manage",
+      tags: ["C#", "SQL", "Oracle"],
+      github: "https://github.com/areeshafaisal44/Inventory-Management-System",
       details:
         "Allows businesses to track product stock levels, manage sales and purchases, and generate inventory reports. The system includes features for barcode scanning, automated reordering, and detailed analytics dashboards.",
     },
@@ -62,7 +62,7 @@ export default function Projects() {
         "A word suggestion tool utilizing Tree Data Structures to suggest words based on user input from a dictionary.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["C++", "Data Structures", "Algorithms"],
-      github: "https://github.com/username/word-suggestion",
+      github: "https://github.com/areeshafaisal44/WordSuggestion",
       details:
         "This tool uses advanced tree data structures to efficiently suggest words based on user input from a dictionary. It implements predictive text algorithms to provide real-time suggestions as users type.",
     },
@@ -71,22 +71,11 @@ export default function Projects() {
       title: "Candy Crush Game",
       description: "A simple Candy Crush-style game developed using C++ with levels, scoring, and game mechanics.",
       image: "/placeholder.svg?height=400&width=600",
-      tags: ["C++", "Game Development", "Graphics"],
-      github: "https://github.com/username/candy-crush-game",
+      tags: ["C++", "Graphics"],
+      github: "https://github.com/areeshafaisal44/Candy-Crush-Game",
       details:
         "A fun and engaging Candy Crush-style game with multiple levels, scoring systems, and game mechanics. Features colorful graphics, sound effects, and progressively challenging gameplay.",
-    },
-    {
-      id: 6,
-      title: "Flutter Tourism App",
-      description:
-        "A Flutter Flow-based tourism app for discovering attractions, booking hotels and jeeps, and connecting with fellow travelers.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Flutter", "Firebase", "Maps API"],
-      github: "https://github.com/username/flutter-tourism-app",
-      details:
-        "This app helps tourists discover popular attractions, book accommodations and transportation, and connect with other travelers in the area. It features interactive maps, user reviews, and real-time availability updates.",
-    },
+    }
   ]
 
   const container = {
