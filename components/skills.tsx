@@ -128,18 +128,22 @@ export default function Skills() {
       </motion.div>
 
       <Tabs defaultValue="mobile" value={activeTab} onValueChange={setActiveTab} className="max-w-3xl mx-auto">
-        <TabsList className="grid grid-cols-3 md:grid-cols-6 mb-8 bg-card border border-primary p-1 rounded-none">
-          {skillCategories.map((category) => (
-            <TabsTrigger
-              key={category.id}
-              value={category.id}
-              className="flex items-center gap-2 rounded-none px-3 py-2 text-sm data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
-            >
-              {category.icon}
-              <span className="hidden md:inline">{category.name}</span>
-            </TabsTrigger>
-          ))}
-        </TabsList>
+        {/* Modified TabsList for better spacing and responsive design */}
+        <div className="overflow-x-auto mb-8 pb-2">
+          <TabsList className="inline-flex min-w-full bg-card border border-primary p-1 rounded-none">
+            {skillCategories.map((category) => (
+              <TabsTrigger
+                key={category.id}
+                value={category.id}
+                className="flex items-center justify-center gap-2 rounded-none px-4 py-2.5 min-w-[120px] sm:min-w-[140px] text-sm data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+              >
+                {category.icon}
+                <span className="inline">{category.name}</span>
+              </TabsTrigger>
+            ))}
+          </TabsList>
+        </div>
+
         {skillCategories.map((category) => (
           <TabsContent key={category.id} value={category.id}>
             <motion.div
