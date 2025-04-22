@@ -29,9 +29,7 @@ export default function Skills() {
       name: "Mobile Development",
       icon: <Smartphone className="h-4 w-4" />,
       skills: [
-        { name: "Java (Android)", level: 95 },
-        { name: "Kotlin", level: 90 },
-        { name: "MVVM Architecture", level: 70 },
+        { name: "Java (Android)", level: 80 },
         { name: "Android SDK", level: 90 },
         { name: "UI/UX Design", level: 85 },
       ],
@@ -42,7 +40,7 @@ export default function Skills() {
       icon: <Code className="h-4 w-4" />,
       skills: [
         { name: "HTML/CSS", level: 80 },
-        { name: "JavaScript", level: 75 },
+        { name: "JavaScript", level: 60 },
         { name: "React", level: 70 },
         { name: "Node.js", level: 65 },
       ],
@@ -54,8 +52,7 @@ export default function Skills() {
       skills: [
         { name: "Firebase", level: 85 },
         { name: "MongoDB", level: 75 },
-        { name: "SQLite", level: 90 },
-        { name: "SQL", level: 80 },
+        { name: "SQL", level: 70 },
       ],
     },
     {
@@ -64,8 +61,6 @@ export default function Skills() {
       icon: <Laptop className="h-4 w-4" />,
       skills: [
         { name: "Java", level: 95 },
-        { name: "Kotlin", level: 50 },
-        { name: "Python", level: 80 },
         { name: "C#", level: 75 },
         { name: "C++", level: 85 },
         { name: "JavaScript", level: 75 },

@@ -15,20 +15,20 @@ interface Experience {
 export default function Experience() {
   const experiences: Experience[] = [
     {
-      id: 1,
-      role: "Teaching Assistant - Probability and Statistics",
+      id: 5,
+      role: "Teaching Assistant - Stochastic Processes",
       company: "FAST NUCES",
-      duration: "Fall 2023",
+      duration: "Spring 2025",
       description:
-        "Assisted professors in teaching Probability and Statistics courses, graded assignments, and conducted tutorial sessions for students on there projects.",
+        "Assisted in teaching advanced probability concepts, stochastic modeling, and applications in computer science.",
     },
     {
-      id: 2,
-      role: "Teaching Assistant - Introduction To Software Engineering",
+      id: 4,
+      role: "Teaching Assistant - Software Engineering",
       company: "FAST NUCES",
-      duration: "Spring 2024",
+      duration: "Fall 2024",
       description:
-        "Supported faculty in teaching software engineering fundamentals, helped students with projects, and provided feedback on assignments.",
+        "Supported core software engineering courses, and provided guidance on software development projects.",
     },
     {
       id: 3,
@@ -39,21 +39,21 @@ export default function Experience() {
         "Assisted in teaching software quality assurance principles, testing methodologies, and quality management processes.",
     },
     {
-      id: 4,
-      role: "Teaching Assistant - Software Engineering",
+      id: 2,
+      role: "Teaching Assistant - Introduction To Software Engineering",
       company: "FAST NUCES",
-      duration: "Fall 2024",
+      duration: "Spring 2024",
       description:
-        "Supported core software engineering courses, helped with lab sessions, and provided guidance on software development projects.",
+        "Supported faculty in teaching software engineering fundamentals, helped students with projects, and provided feedback on assignments.",
     },
     {
-      id: 5,
-      role: "Teaching Assistant - Stochastic Processes",
+      id: 1,
+      role: "Teaching Assistant - Probability and Statistics",
       company: "FAST NUCES",
-      duration: "Spring 2025",
+      duration: "Fall 2023",
       description:
-        "Assisted in teaching advanced probability concepts, stochastic modeling, and applications in computer science.",
-    },
+        "Assisted professors in teaching Probability and Statistics courses, graded assignments, and conducted tutorial sessions for students on there projects.",
+    }    
   ]
 
   const container = {

@@ -25,15 +25,11 @@ import { FaJava } from "react-icons/fa"
 export default function About() {
   const skills = [
     { name: "Java", icon: <FaJava className="h-5 w-5" /> },
-    { name: "Kotlin", icon: <SiKotlin className="h-5 w-5" /> },
-    { name: "Jetpack Compose", icon: <SiJetpackcompose className="h-5 w-5" /> },
     { name: "Android Studio", icon: <SiAndroidstudio className="h-5 w-5" /> },
     { name: "React", icon: <SiReact className="h-5 w-5" /> },
     { name: "JavaScript", icon: <SiJavascript className="h-5 w-5" /> },
     { name: "Firebase", icon: <SiFirebase className="h-5 w-5" /> },
     { name: "MongoDB", icon: <SiMongodb className="h-5 w-5" /> },
-    { name: "SQLite", icon: <SiSqlite className="h-5 w-5" /> },
-    { name: "Python", icon: <SiPython className="h-5 w-5" /> },
     { name: "C#", icon: <TbBrandCSharp className="h-5 w-5" /> },
     { name: "C++", icon: <SiCplusplus className="h-5 w-5" /> },
     { name: "Git", icon: <SiGit className="h-5 w-5" /> },

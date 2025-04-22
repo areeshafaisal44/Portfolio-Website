@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-lg mb-8 max-w-2xl mx-auto text-muted-foreground"
           >
-            Expertise in mobile application development, Java, Kotlin, and UI/UX design.
+            Expertise in mobile application development, Java, unit testing and UI/UX design.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
