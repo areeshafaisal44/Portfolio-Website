@@ -35,7 +35,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Button size="lg" variant="default" className="rounded-none" asChild>
-              <Link href="/AreeshaFaisalResume.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/AreeshaFaisalUpdatedCV.pdf" target="_blank" rel="noopener noreferrer">
                 View Resume
               </Link>
             </Button>
