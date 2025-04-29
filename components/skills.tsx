@@ -56,17 +56,6 @@ export default function Skills() {
       ],
     },
     {
-      id: "languages",
-      name: "Programming Languages",
-      icon: <Laptop className="h-4 w-4" />,
-      skills: [
-        { name: "Java", level: 95 },
-        { name: "C#", level: 75 },
-        { name: "C++", level: 85 },
-        { name: "JavaScript", level: 75 },
-      ],
-    },
-    {
       id: "testing",
       name: "Testing",
       icon: <TestTube className="h-4 w-4" />,
@@ -87,7 +76,7 @@ export default function Skills() {
         { name: "Jira", level: 80 },
         { name: "SonarQube", level: 75 },
         { name: "JMeter", level: 70 },
-        { name: "Postman", level: 85 },
+        { name: "Quality Assurance", level: 85 },
       ],
     },
   ]

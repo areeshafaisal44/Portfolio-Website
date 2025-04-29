@@ -26,7 +26,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-lg mb-8 max-w-2xl mx-auto text-muted-foreground"
           >
-            Expertise in mobile application development, Java, unit testing and UI/UX design.
+            Expertise in mobile application development, Java, unit testing and Frontend Development.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Button size="lg" variant="default" className="rounded-none" asChild>
-              <Link href="/AreeshaFaisalUpdatedCV.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/AreeshaCV.pdf" target="_blank" rel="noopener noreferrer">
                 View Resume
               </Link>
             </Button>

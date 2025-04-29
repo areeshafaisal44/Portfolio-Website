@@ -13,7 +13,6 @@ interface Project {
   id: number
   title: string
   description: string
-  image: string
   tags: string[]
   github?: string
   demo?: string
@@ -28,7 +27,6 @@ export default function Projects() {
       id: 1,
       title: "Event Ease",
       description: "A conference management system designed to handle virtual conferences and paper submissions.",
-      image: "/placeholder.svg?height=400&width=600",
       tags: ["JavaScript","MySQL", "React"],
       github: "https://github.com/areeshafaisal44/FYP",
       details:
@@ -39,7 +37,7 @@ export default function Projects() {
       title: "Arabic Poem Dictionary",
       description:
         "A dictionary application for storing and retrieving Arabic poems, providing quick access to verses and translations.",
-      image: "/placeholder.svg?height=400&width=600",
+      // image: "/placeholder.svg?height=400&width=600",
       tags: ["Java", "SQLite"],
       github: "https://github.com/areeshafaisal44/Arabic_Poems_Dictionary",
       details:
@@ -49,7 +47,7 @@ export default function Projects() {
       id: 3,
       title: "Inventory Management System",
       description: "A comprehensive inventory management system built with C#.",
-      image: "/placeholder.svg?height=400&width=600",
+      // image: "/placeholder.svg?height=400&width=600",
       tags: ["C#", "SQL", "Oracle"],
       github: "https://github.com/areeshafaisal44/Inventory-Management-System",
       details:
@@ -60,7 +58,7 @@ export default function Projects() {
       title: "Word Suggestion",
       description:
         "A word suggestion tool utilizing Tree Data Structures to suggest words based on user input from a dictionary.",
-      image: "/placeholder.svg?height=400&width=600",
+      // image: "/placeholder.svg?height=400&width=600",
       tags: ["C++", "Data Structures", "Algorithms"],
       github: "https://github.com/areeshafaisal44/WordSuggestion",
       details:
@@ -70,7 +68,7 @@ export default function Projects() {
       id: 5,
       title: "Candy Crush Game",
       description: "A simple Candy Crush-style game developed using C++ with levels, scoring, and game mechanics.",
-      image: "/placeholder.svg?height=400&width=600",
+      // image: "/placeholder.svg?height=400&width=600",
       tags: ["C++", "Graphics"],
       github: "https://github.com/areeshafaisal44/Candy-Crush-Game",
       details:
@@ -119,12 +117,12 @@ export default function Projects() {
           <motion.div key={project.id} variants={item}>
             <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow duration-300 border-primary/20 bg-card">
               <div className="relative h-48 overflow-hidden">
-                <Image
+                {/* <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
-                />
+                /> */}
               </div>
               <CardHeader>
                 <CardTitle className="text-primary">{project.title}</CardTitle>
@@ -183,12 +181,12 @@ export default function Projects() {
               <DialogDescription>{selectedProject.description}</DialogDescription>
             </DialogHeader>
             <div className="relative h-64 md:h-80 overflow-hidden rounded-md">
-              <Image
+              {/* <Image
                 src={selectedProject.image || "/placeholder.svg"}
                 alt={selectedProject.title}
                 fill
                 className="object-cover"
-              />
+              /> */}
             </div>
             <div className="space-y-4">
               <div className="flex flex-wrap gap-2">

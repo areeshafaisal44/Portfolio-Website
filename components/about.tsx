@@ -12,8 +12,6 @@ import {
   SiPython,
   SiCplusplus,
   SiGit,
-  SiKotlin,
-  SiJetpackcompose,
   SiAndroidstudio,
   SiSqlite,
   SiJira,
@@ -29,12 +27,9 @@ export default function About() {
     { name: "React", icon: <SiReact className="h-5 w-5" /> },
     { name: "JavaScript", icon: <SiJavascript className="h-5 w-5" /> },
     { name: "Firebase", icon: <SiFirebase className="h-5 w-5" /> },
-    { name: "MongoDB", icon: <SiMongodb className="h-5 w-5" /> },
     { name: "C#", icon: <TbBrandCSharp className="h-5 w-5" /> },
-    { name: "C++", icon: <SiCplusplus className="h-5 w-5" /> },
     { name: "Git", icon: <SiGit className="h-5 w-5" /> },
     { name: "Jira", icon: <SiJira className="h-5 w-5" /> },
-    { name: "Postman", icon: <SiPostman className="h-5 w-5" /> },
   ]
 
   const container = {
@@ -93,8 +88,8 @@ export default function About() {
           <h3 className="text-2xl font-bold mb-4 text-primary">Android Developer</h3>
           <p className="text-muted-foreground mb-6">
             Passionate and detail-oriented Android Developer with experience in designing, developing, and deploying
-            mobile applications. Skilled in Java, Kotlin, with a strong understanding of MVVM
-            architecture, REST APIs, and Firebase integration. Adept at writing clean, maintainable code and
+            mobile applications. Skilled in Java, Flutter, with a strong understanding of MVVM
+            architecture and Firebase integration. Adapt at writing clean, maintainable code and
             collaborating with cross-functional teams to create seamless user experiences.
           </p>
 
