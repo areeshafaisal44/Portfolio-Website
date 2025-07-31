@@ -9,13 +9,12 @@ import {
   SiJavascript,
   SiFirebase,
   SiMongodb,
-  SiPython,
+  SiNodedotjs,
   SiCplusplus,
   SiGit,
-  SiAndroidstudio,
   SiSqlite,
   SiJira,
-  SiPostman,
+  SiExpress,
 } from "react-icons/si"
 import { TbBrandCSharp } from "react-icons/tb"
 import { FaJava } from "react-icons/fa"
@@ -23,13 +22,17 @@ import { FaJava } from "react-icons/fa"
 export default function About() {
   const skills = [
     { name: "Java", icon: <FaJava className="h-5 w-5" /> },
-    { name: "Android Studio", icon: <SiAndroidstudio className="h-5 w-5" /> },
     { name: "React", icon: <SiReact className="h-5 w-5" /> },
     { name: "JavaScript", icon: <SiJavascript className="h-5 w-5" /> },
     { name: "Firebase", icon: <SiFirebase className="h-5 w-5" /> },
+    { name: "MongoDB", icon: <SiMongodb className="h-5 w-5" /> },
+    { name: "SQLite", icon: <SiSqlite className="h-5 w-5" /> },
     { name: "C#", icon: <TbBrandCSharp className="h-5 w-5" /> },
+    { name: "C++", icon: <SiCplusplus className="h-5 w-5" /> },
     { name: "Git", icon: <SiGit className="h-5 w-5" /> },
     { name: "Jira", icon: <SiJira className="h-5 w-5" /> },
+    { name: "NodeJS", icon: <SiNodedotjs className="h-5 w-5" /> },
+    { name: "Express", icon: <SiExpress className="h-5 w-5" /> },
   ]
 
   const container = {
@@ -71,8 +74,8 @@ export default function About() {
               <Image
                 src="Areesha2.jpg"
                 alt="Areesha Faisal"
-                width={400}
-                height={400}
+                width={300}
+                height={300}
                 className="w-full h-auto object-cover"
               />
             </CardContent>
@@ -85,12 +88,11 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h3 className="text-2xl font-bold mb-4 text-primary">Android Developer</h3>
+          <h3 className="text-2xl font-bold mb-4 text-primary">MERN Stack Developer</h3>
           <p className="text-muted-foreground mb-6">
-            Passionate and detail-oriented Android Developer with experience in designing, developing, and deploying
-            mobile applications. Skilled in Java, Flutter, with a strong understanding of MVVM
-            architecture and Firebase integration. Adapt at writing clean, maintainable code and
-            collaborating with cross-functional teams to create seamless user experiences.
+            Passionate and detail-oriented Mern Stack Developer with experience in designing, developing, and deploying
+            Websites. Skilled in JavaScript, Express, NodeJS with a strong understanding of architecture. 
+            Adapt at writing clean, maintainable code and collaborating with cross-functional teams to create seamless user experiences.
           </p>
 
           <div className="mb-8">

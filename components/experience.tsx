@@ -15,6 +15,14 @@ interface Experience {
 export default function Experience() {
   const experiences: Experience[] = [
     {
+      id: 6,
+      role: "Software Quality Assurance Engineer",
+      company: "Journey Online",
+      duration: "Present",
+      description:
+        "Working as a SQA Engineer and doing Manual and Automated testing.",
+    },
+    {
       id: 5,
       role: "Teaching Assistant - Stochastic Processes",
       company: "FAST NUCES",

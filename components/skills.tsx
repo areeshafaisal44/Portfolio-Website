@@ -25,16 +25,6 @@ export default function Skills() {
 
   const skillCategories: SkillCategory[] = [
     {
-      id: "mobile",
-      name: "Mobile Development",
-      icon: <Smartphone className="h-4 w-4" />,
-      skills: [
-        { name: "Java (Android)", level: 80 },
-        { name: "Android SDK", level: 90 },
-        { name: "UI/UX Design", level: 85 },
-      ],
-    },
-    {
       id: "web",
       name: "Web Development",
       icon: <Code className="h-4 w-4" />,
@@ -43,6 +33,17 @@ export default function Skills() {
         { name: "JavaScript", level: 60 },
         { name: "React", level: 70 },
         { name: "Node.js", level: 65 },
+        { name: "Express", level: 70 },
+      ],
+    },
+      {
+      id: "mobile",
+      name: "Mobile Development",
+      icon: <Smartphone className="h-4 w-4" />,
+      skills: [
+        { name: "Java (Android)", level: 80 },
+        { name: "Android SDK", level: 90 },
+        { name: "UI/UX Design", level: 85 },
       ],
     },
     {
@@ -76,7 +77,7 @@ export default function Skills() {
         { name: "Jira", level: 80 },
         { name: "SonarQube", level: 75 },
         { name: "JMeter", level: 70 },
-        { name: "Quality Assurance", level: 85 },
+        { name: "Software Quality Assurance", level: 85 },
       ],
     },
   ]
